@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'omori-font';
+    src: url('../assets/OMORI_GAME2.ttf');
+}
+
+#navbar-ul {
+    width: 65dvw;
+    height: 5dvh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    border-color: black;
+    border-width: 6px;
+    background-color: white;
+    border-style: solid;
+
+}
+
+
+.navbar-li {
+    display: inline;
+}
+
+.navbar-li a {
+    text-decoration: none;
+    color: black;
+    font-family: omori-font;
+}
+
+#omori-whitespace-gif {
+    position: absolute;
+    top: 20%;
+    height: 50dvh;
+    width: auto;
+}
+

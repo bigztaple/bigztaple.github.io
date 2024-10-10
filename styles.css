@@ -1,0 +1,57 @@
+body {
+    background-color: #29738F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#current-image {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+}
+
+#navbar-ul {
+    width: 65dvw;
+    height: 5dvh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: #6096AA;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}  
+
+
+.navbar-li {
+    display: inline;
+}
+
+.navbar-li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#midground {
+    position: relative;
+    background-color: #F1E5D8;
+    width: 65dvw;
+    height: 95svh;
+    border-radius: 5px;
+    top: 10px;
+}
+
+#snorlax-sleeping {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    right: 50px;
+    top: 100px;
+
+}
