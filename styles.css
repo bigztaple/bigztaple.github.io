@@ -1,0 +1,168 @@
+:root {
+    --light-blue: #6096AA;
+    --light-cream: #f7eee6;
+    --medium-blue: #29738f;
+}
+
+html {
+    height: 100%;
+}
+
+
+body {
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    background-color: var(--light-cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topbar {
+    width: 130px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.logos {
+    height: 50px;
+    width: 50px;
+    
+    transition-duration: 400ms;
+}
+.logos:hover {
+    height: 60px;
+    width: 60px;
+}
+
+
+#center-box {
+    position: absolute;
+    top: 20%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#catalog-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.catalog-entry-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    flex-direction: column;
+}
+
+.catalog-entry {
+    height: 130px;
+    width: auto;
+    transition-duration: 200ms;
+}
+
+.catalog-entry:hover{
+    width: auto;
+    height: 140px;
+}
+
+.catalog-text {
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-weight:bold;
+    font-family:;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+#welcome-message{
+    margin: -15px;
+    color: #31738f;
+    animation: rotate 1.5s ease-in-out infinite;
+}
+
+
+
+#snorlax-sleeping {
+    position: relative;
+    width: 25vw;
+}
+
+
+
+
+
+
+/* misc images */
+@keyframes rotate {
+    0% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(5deg);
+
+    }
+    
+}
+
+#jukebox {
+    position: absolute;
+    height: 80px;
+    width: auto;
+    top: 3%;
+    right: 3%;
+}
+
+#pineapple-snorlax {
+    position: absolute;
+    height: 120px;
+    width: auto;
+    bottom: 10%;
+    right: 10%;
+}
+
+#tired-snorlax {
+    position: absolute;
+    height: 100px;
+    width: auto;
+    bottom: 10%;
+    left: 10%;
+}
+
+#pls {
+    position: absolute;
+    bottom: 69%;
+    left: 10%;
+    font-size: xx-large;
+    color: var(--medium-blue);
+    opacity: 5%;
+
+}
+
+#pls:hover{
+    opacity: 100%;
+}
